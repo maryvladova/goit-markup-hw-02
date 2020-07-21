@@ -1,6 +1,7 @@
-:root {--title-text-color: #212121}
-:root {--paragraf-text-color: #757575}
-:root {--accent-text-color: #2196F3}
+:root {--title-text-color: #212121;
+--paragraf-text-color: #757575;
+--accent-text-color: #2196F3;
+}
 
 .body {
    color: var(--title-text-color);
@@ -19,7 +20,7 @@
 }
 
 .Web-logo {
-  color: #2196F3;
+  color:var(--accent-text-color);
 }
 
 .Studio-logo {
